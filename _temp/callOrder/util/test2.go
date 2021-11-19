@@ -7,6 +7,6 @@ func init() {
 }
 func Test2() {
 	fmt.Println("Test2")
-	test()
+	// test()
 
 }
