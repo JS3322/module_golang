@@ -1,4 +1,4 @@
-package main
+package block_chain
 
 import (
 	"bytes"
