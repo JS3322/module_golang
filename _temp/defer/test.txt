@@ -1,0 +1,4 @@
+*import 시 앞에 _ 붙이면 프로그램에서 사용하지 않는 import라도 에러나지 않음
+
+*UNIX 프로세스는 항상 세가지 파일 열어둠
+os.stdin, os.stdout, os.stderr

@@ -37,3 +37,28 @@ type Man struct {
 func NewMan(name string) *Man {
 	return &Man{Human: NewHuman(name)}
 }
+
+func (man Man) check() {
+	fmt.Printf("%s is a Man. \n", man.name)
+}
+
+type Speaker interface {
+	speak()
+}
+
+func (human Human) Speaker() {
+	fmt.Println("I am Human.!!!")
+}
+
+type Woman struct {
+	name string
+}
+
+func NewWoman(name string) *Woman {
+	return &Woman{name: name}
+}
+
+// Woman에 Speaker를 구현
+func (woman Woman) Speak() {
+	fmt.Println("I am Woman.")
+}

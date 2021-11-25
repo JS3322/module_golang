@@ -1,4 +1,4 @@
-// package block_chain
+// package blockchaintest
 
 // type Blockchain struct {
 // 	blocks *[]Block

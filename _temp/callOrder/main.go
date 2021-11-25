@@ -1,7 +1,7 @@
 package main
 
 import (
-	"util"
+	util "module_golang/_temp/callOrder/util"
 )
 
 func init() {
@@ -12,5 +12,4 @@ func main() {
 	println("main 실행")
 	util.Test1()
 	util.Test2()
-	//util.test() // 호출 불가
 }
