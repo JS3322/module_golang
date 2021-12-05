@@ -4,8 +4,9 @@ Module List
 
 ---
 ### TODO List
-- [ ] -
-[ ] -
+- [ ] file encryption module
+- [ ] tcp network connect
+- [ ] gorution actor pattern
 
 ---
 ### Package Architecture
