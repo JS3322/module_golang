@@ -7,6 +7,7 @@ Module List
 - [ ] file encryption module
 - [ ] tcp network connect
 - [ ] gorution actor pattern
+- [ ] gRPC connect strming
 
 ---
 ### Package Architecture

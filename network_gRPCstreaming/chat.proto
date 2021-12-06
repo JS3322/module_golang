@@ -1,0 +1,24 @@
+// proto2 default > proto3
+syntax = "proto3";
+
+package chatserver;
+
+// cline to server message
+message FromClient {
+
+    string name = 1;
+    string body = 2;
+}
+
+// server tos client message
+message FromServer {
+
+    string name = 1;
+    string body = 2; 
+}
+
+// create one RPC service named
+service Services {
+
+    rpc ChatService(stream FromClient) returns (stream FromServer){};
+}
