@@ -3,23 +3,24 @@ Module List
 ```
 
 ---
-### TODO List
-- [ ] file encryption module
+### TODO List | Route
+- [x] file reduce file size compression  | file_compression
+- [x] connect sqlite DB | db_connectSqlite
+- [x] file encryption MD5 module | encoding_encryptionMd5
+- [x] fix request - graphql sample | network_grqphql
+- [x] http connect sample | network_httpSample
+- [x] template todolist sample | template_todoList
 - [ ] tcp network connect
 - [ ] gorution actor pattern
-- [ ] gRPC connect strming
+- [ ] connect strming
+- [ ] scraping
 
 ---
-### Package Architecture
-#### Module Name | Module Explanation | Route
-1. - | - | -
-
----
-## Stay in touch
+### Stay in touch
 - Developer - [JS KIM](https://cleancode.kr)
 
 ---
-## License
+### License
 [MIT licensed](LICENSE)
 
 ---
